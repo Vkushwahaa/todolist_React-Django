@@ -1,0 +1,107 @@
+.container-dark {
+  width: 600px;
+  background-color: #242424;
+  margin: 0 auto;
+  display: flexbox;
+  border-radius: 20px;
+}
+.child-container {
+  padding-left: 5%;
+  border-color: aliceblue;
+
+  justify-content: center;
+  display: flex;
+  border-width: 0.01cap;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.text {
+  flex: 1;
+}
+.delete-button {
+  background-color: rgba(254, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+  transition: 0.5s;
+  margin: 5px;
+}
+.delete-button:hover {
+  background-color: rgba(254, 0, 0, 0.72);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.up-button {
+  background-color: rgba(254, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+  transition: 0.5s;
+  margin: 5px;
+}
+.up-button:hover {
+  background-color: rgba(97, 255, 221, 0.72);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.down-button {
+  background-color: rgba(254, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+  transition: 0.5s;
+  max-height: max-content;
+  margin: 5px;
+  margin-right: 20px;
+}
+.down-button:hover {
+  background-color: rgba(0, 178, 254, 0.922);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.add-button {
+  background-color: rgba(254, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+  transition: 0.5s;
+  max-height: max-content;
+}
+.add-button:hover {
+  background-color: rgba(17, 199, 255, 0.792);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  justify-content: center;
+  background-color: var(--color-lighter);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-width: 0.01rem;
+  border-bottom-color: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  border-bottom-width: 0.01rem;
+  border-bottom-color: white;
+}
